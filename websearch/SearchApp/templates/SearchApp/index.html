@@ -1,5 +1,17 @@
 {% extends "./base_site.html" %}
 
+{% block navigator %}
+    <a class="navbar-brand" href="#">AdaFactor</a>
+{% endblock navigator %}
+
 {% block body_contents %}
-    <h1>Hello, OpenMarathon</h1>
+    <div class="text-center">
+        <h1 class="h1-head">Open Marathon</h1>
+        <div class="mar">
+            <input type="text" class="inputSearch">
+        </div>
+        <div class="mar">
+            <a class="btn-search" href="">Search</a>            
+        </div>
+    </div>
 {% endblock body_contents %}
