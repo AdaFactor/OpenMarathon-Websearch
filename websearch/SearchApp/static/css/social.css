@@ -4,17 +4,19 @@
     width: 70px;
     text-align: center;
     text-decoration: none;
-    color: white;    
+    color: #e4c200;    
     margin: 5px 3px;
     border-radius: 50%;
-    opacity: 0.5;    
-    background: rgb(121, 121, 121);    
+    /* opacity: 0.5;     */
+    /* background: rgb(121, 121, 121); */
+    border: 1px solid #e4c200;  
 }
 
 .fa:hover {
-    opacity: 1;    
+    background: #6b6b6b;    
     text-decoration: none;
-    color: white;    
+    color: white;
+    border: 1px solid #ffffff;      
 }
 
 /* .fa-facebook {
