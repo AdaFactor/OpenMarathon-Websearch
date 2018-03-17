@@ -1,0 +1,94 @@
+html{ height:100%; }
+body {
+    min-height:100%; 
+    padding:0; 
+    margin:0; 
+    position:relative;
+}
+
+body::after{ 
+    content:''; 
+    display:block; 
+    /* height:100px;  */
+}
+
+.mar {
+    margin: 20px 0;
+}
+
+.h1-head {
+    font-size: 60px;
+    font-weight: bold;
+    color:	#0202bb; /*if no support for background-clip #D5AD6D*/
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(
+        top, 
+        #0202bb 0%, 
+        #0202bb 26%, 
+        #1414e9 35%, 
+        #1414e9 45%, 
+        #0202a1 61%, 
+        #0202bb 100%
+    );
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #000080), color-stop(0.15, #000080), color-stop(0.3, #000080), color-stop(0.45, #000080), color-stop(0.6, #e0e000),color-stop(0.75, #e0e000), color-stop(0.9, #e0e000), color-stop(1, #e0e000) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #000080), color-stop(0.15, #000080), color-stop(0.3, #000080), color-stop(0.45, #000080), color-stop(0.6, #e0e000),color-stop(0.75, #e0e000), color-stop(0.9, #e0e000), color-stop(1, #e0e000) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text; */
+}
+
+.inputSearch {
+    padding: 8px 10px;
+    width: 60%;
+    border: 2px solid #000080;
+    border-radius: 10px;    
+}
+
+.btn-search {
+    width: 20%;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000080;
+    border-radius: 10px;
+}
+
+.btn-search:hover {
+    text-decoration: none;
+    color: #ebebeb;
+    background-color: #0202bb;        
+}
+
+.footer {
+    position: absolute;
+    margin-top: 20PX;
+    bottom: 0;
+    padding: 20px 0;
+    width:  100%;
+    background-color: #272727;
+    color: white;
+}
+
+
+.icon-social {
+    margin: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.images-container {
+    height: 100%;
+    padding: 0 20px;
+}
+
+.gallery {
+}
+
+.supporter {
+    padding: 10;
+    height: 100%;
+    background-color: #e0e000;
+}
